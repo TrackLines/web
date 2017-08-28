@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: node:8-onbuild
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 80:80
